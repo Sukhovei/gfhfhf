@@ -1,0 +1,37 @@
+.catalog{
+background-color: $white-color;
+  border-radius: $default-border-radius;
+  box-shadow: $default-box-shadow;
+  &__filters-title{
+    padding: 1rem;
+    small{
+      font-size:$fon-xxs ;
+    }
+  }
+  .accordion-item:last-of-type,
+  .accordion-item:first-of-type{
+    border-radius: 0;
+    border:none;
+    .accordion-button{
+      border-radius: 0;
+      box-shadow:none ;
+    }
+    .accordion-body{
+      border-bottom:43px solid $border-bot-catalog;
+    }
+  }
+
+  .accordion{
+    gap: 16px;
+  }
+
+
+&__text-darken{
+  color: $color-clear-filter;
+}
+
+
+
+
+}
+

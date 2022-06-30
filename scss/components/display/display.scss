@@ -1,0 +1,81 @@
+.display{
+
+  &__display-products{
+    gap: 26px;
+    font-size: $font-xs;
+    font-weight:$font-weight medium ;
+    position: absolute;
+  }
+  p:hover{
+    color:$main-bg-active;
+    transition: $transition;
+  }
+  & :active:hover{
+    color:$main-bg-active;
+    transition: $transition;
+  }
+  &__line{
+    width: 26px;
+    height: 1px;
+    border-bottom: 1px solid $main-line;
+  }
+  &__display-wall h1 {
+    width: 154px;
+    height: 30px;
+    font-weight: $font-weight large;
+    font-size: $font-size-l;
+    color: $main-color-text;
+    padding-top: 23px;
+  }
+  &__dropdown-menu{
+    padding-top: 57px;
+    gap: 30px;
+
+
+  }
+
+  .btn-secondary {
+    border: none;
+    color: $main-color-text;
+    background: $main-bg-color;
+    border-radius: 40px;
+    width: 216px;
+    height: 50px;
+    text-align: center;
+    font-size: $font-s;
+    font-weight: $font-weight medium;
+
+
+    a:hover {
+      position: relative;
+      color: #99C63C;
+      transition: $transition;
+    }
+  }
+
+
+  .display__form-control {
+    width: 874px;
+    height: 50px;
+    border: none;
+    border-radius: 54px;
+    margin-left: 30px;
+
+    padding-left: 39px;
+    font-size: $font-s;
+    font-weight: $font-weight medium;
+    color: $main-line;
+    position: relative;
+
+
+    &-control:before{
+      position: absolute;
+      content: url("../../../assets/images/search-heart.png");
+      color: black;
+      width: 17px;
+      height: 17px;
+      left: 100%;
+
+    }
+  }
+}

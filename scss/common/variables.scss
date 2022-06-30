@@ -1,0 +1,52 @@
+
+$font-family-main:'Lato',sans-serif;
+$header-font-size-icons:24px;
+$products-pb-xxl:34px;
+$font-size-l:28px;
+$font-size-ml:17px;
+$font-m:16px;
+$font-s:15px;
+$font-xs:13px;
+$fon-xxs:10px;
+$font-weight: medium -400;
+$white-font-weight: large -700;
+$main-bg: #F4F4F4;
+$accent-color:#99C63C;
+$transition: .10s;
+
+$default-box-shadow:0 8px 16px rgba(0, 0, 0, 0.08);
+$default-border-radius:16px;
+
+$main-line: #BDBDBE;
+$main-bg-active: #73962C;
+$main-color-text:#17181A;
+$main-bg-color:#fff;
+$main-bg-body:#F4F4F4;
+$white-color:#fff;
+$footer-contact-color: #BDBDBE;
+$input-border-footer:#515151;
+
+$color-clear-filter:#EB5757;
+$border-bot-catalog:#ccc;
+$btn-primary: #515151;
+$color-number-page:#E2E2E2;
+$footer-bg:#26282c;
+
+:root {
+  --bs-link-color: #000;
+  --bs-body-bg:$main-bg-body;
+}
+.navbar{
+  --bs-navbar-brand-margin-end:45px;
+  --bs-navbar-color:#000;
+
+}
+.accordion{
+  --bs-accordion-active-bg:none;
+  --bs-accordion-bg:none;
+
+}
+
+
+
+

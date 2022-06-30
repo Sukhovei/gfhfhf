@@ -1,0 +1,17 @@
+body{
+ font-family:  $font-family-main;
+   $font-weight: medium;
+   $font-weight: large;
+  font-size: $font-s;
+  background-color: $main-bg;
+}
+
+a{
+  text-decoration: none;
+
+ &:hover {
+  color:$accent-color;
+  transition: $transition;
+   text-decoration: underline;
+ }
+}

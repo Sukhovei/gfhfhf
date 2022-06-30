@@ -1,0 +1,145 @@
+.footer{
+background-color:$footer-bg;
+  padding-top: 47px;
+    &__contact{
+    color:$footer-contact-color;
+
+
+  i{
+    margin-right: 8px;
+  }
+    a{
+      color:$footer-contact-color;
+    }
+    &-logofooter{
+    margin-bottom: 16px;
+    }
+    &-address{
+    max-width: 80%;
+    margin-bottom: 21px;
+    }
+    &-phone{
+    margin-bottom: 22px;
+    }
+    &-email{
+      margin-bottom: 27px;
+    }
+    }
+
+    &__navigation{
+
+  ul {
+    list-style:none;
+    a {
+      color:$footer-contact-color;
+    }
+
+  }
+  &-title{
+  color:$white-color;
+  font-weight:$white-font-weight large ;
+  font-size:$font-size-ml;
+  margin-bottom: 16px;
+}
+
+}
+
+    &__news-newsletter{
+  color:$white-color;
+  font-weight:$white-font-weight large ;
+  font-size:$font-size-ml;
+  margin-bottom: 16px;
+}
+
+    &__news-form{
+      position: relative;
+      input{
+      background-color:$footer-bg;
+        color:$white-color;
+      border-radius: 39px;
+      border: 0.5px solid $input-border-footer;
+      padding: 13px 29px;
+        margin-bottom: 8px;
+      }
+        a{
+          position: absolute;
+          left: 53%;
+          top:17%;
+        i{
+          color: $accent-color;
+          background-color: transparent;
+        }
+
+          i:hover{
+           position: absolute;
+            transform: skewY(1.07rad);
+            transition: $transition;
+          }
+
+      }
+  }
+    &__dropdown{
+     #lang-menu-footer{
+    color:$main-bg;
+    border-radius: 39px;
+    border: 0.5px solid $input-border-footer;
+    padding: 13px 75px;
+
+  }
+}
+
+    &__copyright-love{
+  color: $footer-contact-color;
+  font-weight:$white-font-weight large ;
+  font-size: $font-xs;
+  gap:18px;
+  margin-top: 40px;
+margin-bottom: 20px;
+
+  i{
+    color: $accent-color;
+    background-color: transparent;
+  }
+  i:hover{
+    transition:$transition ;
+    transform: skew(30deg, 20deg);
+  }
+
+}
+  &__socials-img{
+    margin-top: 33px;
+    width: 300%;
+    gap: 6px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+
+    a:hover{
+      filter: blur(1px);
+      opacity: .8;
+      transform: translate3d(12px, 50%, 3em);
+    }
+  }
+  &__arrow-rectangle{
+  .btn-secondary{
+    border-radius:18px ;
+    background-color: $accent-color;
+    position: absolute;
+    margin-top: 100px;
+    width: 30px;
+    height: 30px;
+    margin-left: 7.6%;
+  }
+  .btn-secondary:hover{
+    transition:$transition ;
+    transform: rotate(-90deg);
+  }
+  .btn-secondary:active{
+    transform: perspective(500px) translate(10px,  20px) rotateY(3deg);
+    transition:$transition ;
+  }
+   }
+}
+
+
+
